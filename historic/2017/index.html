@@ -48,39 +48,88 @@
 
             <div class="jumbotron subhead" id="overview">
             <div class="container">
-                <h1>Cronologia</h1>
+                <h1><span class="logo">*LP</span> Per la Pública</h1>
             </div>
         </div>
     
-            <div class="container">
-            <div class="row">
-                <div class="col-md-12">
     
-<div class="col-md-12">
+<div class="container">
+	        <div class="alert alert-warning">
+			<p>Estàs veient l'històric de la web. <a href="../../">Tornar a la web actual</a>.</p>
+		</div>
+    <div class="row">
 
-	<p>Si trobes a faltar quelcom, fes-nos-ho arribar al correu
-	<a href="mailto:upc.per.la.publica@gmail.com">upc.per.la.publica@gmail.com</a>.</p>
+        <div class="col-md-9">
 
-	<div class="embed-responsive embed-responsive-16by9">
-	<iframe width="100%" height="715" src="timeline/timeline.html" frameborder="0" allowfullscreen>
-        <p>Your browser does not support iframes.</p>
-    </iframe>
+	        <p class="lead">Som un grup de persones de la comunitat UPC compromeses amb la universitat pública
+		       i que volem defensar la seva qualitat i els seus valors.</p>
+	
+			<p class="lead">Entre nosaltres trobareu <a href="membres_claustre.html">representants al Claustre</a>, al Consell
+	               de Govern i al Consell Social de la UPC. Volem fer sentir la vostra veu!</p>
+
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Nota sobre el desconfinament</div>
+					<div class="panel-body">
+						<p><a href="nota-desconfinament.html">Llegeix la nostra opinió sobre el desconfinament a la UPC</a></p>
+						<div style="text-align:center">
+							<img src="/img/vida-pas.png">
+						</div>
+					</div>
+				</div>
+			</div>					
+
+			<div id="capsetes">
+			
+			<div class="col-md-4" onclick="document.location='carta.html'" style="cursor:pointer">
+				<div class="panel panel-default">
+					<div class="panel-heading"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Presentació</div>
+					<div class="panel-body">
+						Vols saber més sobre què és Per la Pública, quins són el nostre ideari i els nostres valors?
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4" onclick="document.location='membres_claustre.html'" style="cursor:pointer">
+				<div class="panel panel-default">
+					<div class="panel-heading"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Qui som</div>
+					<div class="panel-body">
+						Pertanyem a diferents dep&shy;ar&shy;ta&shy;ments i uni&shy;tats de la UPC. Som molt a prop de tu!
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4" onclick="document.location='activitat.html'" style="cursor:pointer">
+				<div class="panel panel-default">
+					<div class="panel-heading"><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Activitats</div>
+					<div class="panel-body">
+						La nostra agenda: consulta el calendari de les properes re&shy;u&shy;nions i activitats.
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4" onclick="document.location='timeline.html'" style="cursor:pointer">
+				<div class="panel panel-default">
+					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Cronologia</div>
+					<div class="panel-body">
+						Un recull d'esdeveniments i notícies rellevants d'aquests últims anys a la UPC.
+					</div>
+				</div>
+			</div>		
+			</div>	
+		</div>
+
+        <div class="col-md-3">
+			<a class="twitter-timeline" href="https://twitter.com/perlapublica?ref_src=twsrc%5Etfw">Tweets by perlapublica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
     </div>
-
-</div>
-<div class="col-md-8">
-    <h2>Històric</h2>
-    <p class="lead">Aquesta pàgina recull l'històric de versions de la nostra web.</p>
-    <p>Hi podeu consultar tots els documents publicats històricament, les persones que hi han participat o l'evolució de *LP en el temps (funcionament, ideari, ...).</p>
-    <ul>
-        <li><a href="historic/2013/index.html">La nostra web, del 2013 fins al 2017.</a></li>
-        <li><a href="historic/2017/index.html">La nostra web, del 2017 fins al 2021.</a></li>
-    </ul>
 </div>
 
-	    		</div> <!-- /.col-md-* -->
-    	</div> <!-- /.row -->
-	</div> <!-- /.container -->
+<script>
+	$(function(){
+		$('#capsetes .panel-heading').css('font-size','20pt');
+	});
+</script>
 	
 	<footer class="footer" style="margin-top: 2em">
 		<div class="container">
