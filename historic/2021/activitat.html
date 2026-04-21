@@ -13,7 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <link href="//fonts.googleapis.com/css?family=Varela+Round|Montserrat" rel="stylesheet" type="text/css">
-    <link href="css/xlp.css" rel="stylesheet" type="text/css">
+    <link href="css/xlp.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -48,67 +48,84 @@
 
             <div class="jumbotron subhead" id="overview">
             <div class="container">
-                <h1>Cronologia</h1>
+                <h1>Activitats</h1>
             </div>
         </div>
     
             <div class="container">
+            <div class="alert alert-warning">
+                <p>Estàs veient l'històric de la web. <a href="../../">Tornar a la web actual</a>.</p>
+            </div>
             <div class="row">
                 <div class="col-md-12">
     
-<div class="col-md-12">
-	<h5>Si trobes a faltar quelcom, fes-nos-ho arribar al correu
-	<a href="mailto:info.perlapublica@upc.edu">info.perlapublica@upc.edu</a>.</h5>
-    <div class="embed-responsive embed-responsive-16by9">
-	<iframe width="100%" height="715" src="timeline/timeline.html" frameborder="0" allowfullscreen>
-        <p>Your browser does not support iframes.</p>
-        </iframe>
-    </div>
+
+<div class="col-md-2 logo-container hidden-md hidden-xs hidden-sm">
+    <p class="logo aside">*LP</p>
 </div>
+<div class="col-md-8">
+    <h2>Activitats</h2>
 
-<div class="container">
-	<h2>Històric</h2>
-    <div class="row">
+    <p>Aquí podeu consultar el registre dels nostres butlletins setmanals,
+       així com l'agenda de les properes trobades i activitats,
+       per si hi voleu assistir.</p>
 
-        <div class="col-md-8">
+    <h3>Agenda</h3>
 
-		<p class="lead">Aquesta pàgina recull l'històric de versions de la nostra web.</p>
-		<p>Hi podeu consultar tots els documents publicats històricament, les persones que hi han participat o l'evolució de *LP en el temps (funcionament, ideari, ...).</p>
-	
-			<div id="capsetes">
-			
-			<div class="col-md-6" onclick="document.location='historic/2013/index.html'" style="cursor:pointer">
-				<div class="panel panel-danger">
-					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 2013</div>
-					<div class="panel-body">
-						La nostra web, del 2013 fins al 2017
-					</div>
-				</div>
-			</div>
+    <button href="#" id="showHelp" class="btn btn-default" style="margin-bottom: 1.5em">
+    	<span class="glyphicon glyphicon-hand-right"></span> Subscriviu-vos
+    </button>
 
-			<div class="col-md-6" onclick="document.location='historic/2017/index.html'" style="cursor:pointer">
-				<div class="panel panel-danger">
-					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 2017</div>
-					<div class="panel-body">
-						La nostra web, del 2017 fins al 2021
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-6" onclick="document.location='historic/2021/index.html'" style="cursor:pointer">
-				<div class="panel panel-danger">
-					<div class="panel-heading"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 2021</div>
-					<div class="panel-body">
-						La nostra web, del 2021 fins al 2026
-					</div>
-				</div>
-			</div>
-
-			</div>	
+    <div id="help" style="display:none" class="panel panel-info">
+    	<div class="panel-heading">Subscriure's al calendari de Per la Pública</div>
+    	<div class="panel-body">
+        <ul>
+            <li>Si feu servir Google Calendar, us podeu subscriure al calendari "info.perlapublica@upc.edu"</li>
+		    <li>Si feu servir una aplicació de gestió de calendaris que suporti el format iCal, cal que hi
+		        afegiu <a href="https://www.google.com/calendar/ical/info.perlapublica%40upc.edu/public/basic.ics">l'adreça iCal</a>
+		        en la vostra aplicació.
+		    <li>Una altra opció és afegir als favorits del vostre navegador l'<a href="https://www.google.com/calendar/embed?src=info.perlapublica%40upc.edu&ctz=Europe/Madrid">enllaç al calendari en format web</a>.</li>
+		    </ul>
+		</div>
 	</div>
 
-    </div>
+    <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;hl=ca&amp;wkst=2&amp;src=info.perlapublica%40upc.edu&ctz=Europe%2FMadrid" style="border: 0; width: 600px; height:250px" title="L'agenda de *LP"></iframe>
+
+
+	<h3>Eleccions a Rector</h3>
+
+
+    <h4>Novembre 2017</h4>
+    <p>
+        Durant les eleccions a Rector, vam preparar un document amb les
+        <a href="inquietuds_pas.html" title="Inquietuds del PAS recollides durant les eleccions a Rector el 2017">inquietuds del PAS</a>
+        que vam presentar als candidats a
+        <a href="https://enricfossas.cat/">Enric Fossas</a> i
+        <a href="http://www.francesctorres.cat/">Francesc Torres</a>.
+    </p>
+
+	<h4>Novembre 2013</h4>
+	<p>Durant les eleccions a Rector, vam enviar un <a href="doc/questionari_rectorables.pdf" title="Qüestionari per als candidats a rector">qüestionari als candidats</a>
+	   i vam publicar les seves respostes:</p>
+    <ul>
+        <li><a href="doc/respostes_candidats/elias.pdf" title="Respostes d'Antoni Elias">Antoni Elias</a></li>
+        <li><a href="doc/respostes_candidats/fossas.pdf" title="Respostes d'Enric Fossas">Enric Fossas</a></li>
+        <li><a href="doc/respostes_candidats/junyent.pdf" title="Respostes de Gabriel Junyent">Gabriel Junyent</a></li>
+        <li><a href="doc/respostes_candidats/perez.pdf" title="Respostes de Juan Jesús Pérez">Juan Jesús Pérez</a></li>
+    </ul>
+
 </div>
+
+<script type="text/javascript">
+	$(function() {
+	    $('#butlletins li').css("line-height","2em");
+	    $('#showHelp').click(function() {
+	    	$('#showHelp').hide();
+	    	$('#help').fadeIn();
+	    });
+
+	});
+</script>
 
 	    		</div> <!-- /.col-md-* -->
     	</div> <!-- /.row -->
